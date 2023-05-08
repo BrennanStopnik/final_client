@@ -1,0 +1,22 @@
+export const CarouselData = [
+  {
+    image:
+      "https://media.istockphoto.com/id/477721988/photo/fresh-raw-red-meat.jpg?s=612x612&w=0&k=20&c=fGvodsH_DrhF_w6Ce18aHvoHjDSQRD-OilctrX0kJ8o=",
+  },
+  {
+    image:
+      "https://homebodyeats.com/wp-content/uploads/2022/07/fruit-display.jpg",
+  },
+  {
+    image:
+      "https://www.foodandwine.com/thmb/gZbIKTsSFYsPlOec6PiuwmEnqAw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-talk-about-cheese-FT-BLOG0220-3-2000-81c534796b484bd59d0bce16fb398862.jpg",
+  },
+  {
+    image:
+      "https://heatherchristo.com/wp-content/uploads/2016/12/The-Ultimate-Crudite-Platter.jpg",
+  },
+  {
+    image:
+      "https://www.rd.com/wp-content/uploads/2022/08/GettyImages-1157106624.jpg",
+  },
+];
