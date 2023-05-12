@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
-import CartNftCard from "../components/CartNftCard";
+
 
 export default function ProfilePage(props) {
   const { saveButton, setSaveButton } = props;
@@ -187,12 +187,7 @@ export default function ProfilePage(props) {
                 setMyCollection(!myCollection);
               }}
             />
-            <div className=' pt-8 flex flex-wrap gap-4'>
-              {myCollection &&
-                myOwnedNfts.map((nft, index) => {
-                  return <CartNftCard nft={nft} key={index} />;
-                })}
-            </div>
+            
           </div>
           <div className='sm:col-span-6 mt-12 '>
             <h1 className='text-xl text-blue-gray-900 font-bold my-4'>

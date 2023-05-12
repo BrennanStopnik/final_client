@@ -1,8 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useState, useEffect } from "react";
 import GlobalLayouts from "./layouts/GlobalLayouts";
-import PricingPage from "./pages/PricingPage";
-import PlatformsPage from "./pages/PlatformsPage";
 import AboutPage from "./pages/AboutPage";
 import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
@@ -52,22 +50,6 @@ const App = () => {
         {
           path: "/support",
           element: <Support />,
-        },
-        {
-          path: "/platforms",
-          element: (
-            <PlatformsPage
-              nfts={nfts}
-              setNfts={setNfts}
-              urlEndPoint={urlEndPoint}
-              leftSideBar={leftSideBar}
-              showLeftSideBar={showLeftSideBar}
-            />
-          ),
-        },
-        {
-          path: "/pricing",
-          element: <PricingPage />,
         },
         {
           path: "/login",
