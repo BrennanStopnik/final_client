@@ -72,14 +72,7 @@ export default function ProfilePage(props) {
                   <span className=''>Edit Profile</span>
                   {/* <ChevronDownIcon className='text-gray-900 ml-2 h-5 w-5 dark:hover:text-indigo-400 dark:bg-indigo-700/50 dark:text-zinc-100' /> */}
                 </Popover.Button>
-                <button
-                  className='text-gray-900 group inline-flex items-center rounded-md bg-white text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 px-2 dark:hover:text-indigo-400 dark:bg-indigo-700/50 dark:text-zinc-100'
-                  onClick={() => {
-                    setMyCollection(!myCollection);
-                  }}
-                >
-                  My Nfts
-                </button>
+                
                 <Transition
                   as={Fragment}
                   enter='transition ease-out duration-200'
@@ -224,11 +217,6 @@ export default function ProfilePage(props) {
               />
             </div>
             <br />
-          </div>
-          <div className='sm:col-span-6'>
-            <h2 className='text-xl font-medium text-blue-gray-900'>
-              My Coin Balance: ${auth.userCoin}
-            </h2>
           </div>
           <br></br>
           <br></br>
