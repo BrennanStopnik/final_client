@@ -43,6 +43,7 @@ const App = () => {
       children: [
         {
           path: "/home",
+          index: true,
           element: <HomePage urlEndPoint={urlEndPoint} />,
         },
         {
