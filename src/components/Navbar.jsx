@@ -28,7 +28,7 @@ const Navbar = (props) => {
           </h1>
           <ul className='hidden md:flex'>
             <li className='hover:text-indigo-600 dark:text-white dark:hover:text-indigo-400 cursor-pointer'>
-              <Link to='/home'>Home</Link>
+              <Link to='/'>Home</Link>
             </li>
             <li className='hover:text-indigo-600 dark:text-white dark:hover:text-indigo-400 cursor-pointer'>
               <Link to='/about'>About</Link>
