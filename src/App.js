@@ -94,15 +94,6 @@ const App = () => {
     }
   }, [theme]);
 
-  useEffect(() => {
-    const fetchNfts = async () => {
-      const result = await fetch(`${urlEndPoint}/nfts/all`);
-      const fetchedNftPayload = await result.json();
-      setNfts(fetchedNftPayload.result);
-    };
-    fetchNfts();
-  }, [auth.userCartHistory]);
-
   return (
     <>
       <RouterProvider router={router} />
