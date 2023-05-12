@@ -72,7 +72,7 @@ const Navbar = (props) => {
                   className='px-6 py-2 my-4 dark:hover:text-indigo-400 dark:bg-indigo-700/50'
                   onClick={() => {
                     auth.logout();
-                    navigate("/home");
+                    navigate("/");
                   }}
                 >
                   Log Out

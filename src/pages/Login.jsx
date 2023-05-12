@@ -85,7 +85,7 @@ export default function Login(props) {
               onClick={async () => {
                 const loginResult = await auth.login(email, password);
                 if (loginResult.success) {
-                  navigate("/home");
+                  navigate("/");
                 }
               }}
             >
