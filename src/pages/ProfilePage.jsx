@@ -218,8 +218,7 @@ export default function ProfilePage(props) {
             </div>
             <br />
           </div>
-          <br></br>
-          <br></br>
+        
           <br></br>
           <br></br>
 
